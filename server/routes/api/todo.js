@@ -43,7 +43,7 @@ router.post('/', async (req, res) => {
   // Initialize database
   async function loadTodosCollection() {
     const MongoClient = require('mongodb').MongoClient;
-    const uri = "mongodb+srv://DBadmin:Karlskron4@miun-j3cpp.mongodb.net/test?retryWrites=true&w=majority";
+    const uri = "mongodb+srv://Username:Password@miun-j3cpp.mongodb.net/test?retryWrites=true&w=majority"; // Change Username and password
     const client = await new MongoClient.connect(uri, {useNewUrlParser: true});
   
     return client.db("todolist").collection("todos");
