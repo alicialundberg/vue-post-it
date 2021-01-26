@@ -1,5 +1,5 @@
 # vue-post-it
-Virtual post-it application built with Vue.js and MongoDB
+Virtual post-it application built with Vue.js, Node.js and MongoDB
 
 A user can add, update and remove post-it notes. 
 
